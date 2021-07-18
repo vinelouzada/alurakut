@@ -56,6 +56,21 @@ const Box = styled.div`
     border-radius: 10000px;
     background-color: #6F92BB;
   }
+  ul{
+    font-size: 15px;
+    list-style: none;
+  }
+  table{
+    height : 100%;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  td{
+    display: flex;
+    flex-direction: row;
+    padding: 8px 0px;
+  }
+
 `;
 
 export default Box;
